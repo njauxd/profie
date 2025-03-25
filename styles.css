@@ -14,7 +14,8 @@
   .Logo{
     padding: 10px;
     margin-left: 3%;
-    margin-top: 1%;
+    margin-top: 2%;
+    font-size: 32px;
     font-weight: bold;
     font-family: Cambria, Cochin, Georgia, Times, serif;
   }
@@ -46,6 +47,7 @@
   
   .header a{
     text-decoration: none;
+    color: #000;
   }
   
   .header a:hover{
@@ -100,7 +102,7 @@
   }
   
   .para{
-    border: 1px solid #0e9292;
+    border: 1px solid #fff;
     border-radius: 5px;
     padding: 3px;
     width: 26%;
@@ -161,8 +163,7 @@
   
   .secend-sec h2{
     font-weight: bold;
-    font-size: 34px;
-    display: flex;
+    font-size: 36px;
   }
   
   .sec-box{
@@ -188,6 +189,10 @@
   
   .sec-box p,a{
     text-decoration: none;
+  }
+
+  .sec-box a{
+    color: #fff;
   }
   
   .btn-text{
@@ -320,6 +325,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-left: 7%;
+    margin-right: 7%;
     margin-top: 2%;
     margin-bottom: 5%;
     background: #ffffffd8;
@@ -424,6 +431,7 @@
     margin-top: 3%;
     margin-right: 10%;
     border-radius: 25px;
+    margin-bottom: 3%;
     width: 48%;
     height: 250px;
   }
@@ -686,6 +694,10 @@
     margin-top: 2%;
     padding: 5px;
   }
+
+  .line{
+    background: #7e7777;
+  }
   
   .last-sec{
     background: #e0e0e0d8;
@@ -720,6 +732,7 @@
     width: 30rem;
     height: 10rem;
     padding: 2%;
+    margin-left: -10%;
     margin-top: 2%;
     margin-bottom: 2%;
   }
@@ -745,4 +758,38 @@
   .socials img{
     width: 50px;
     height: 50px;
+  }
+
+  .summury p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .content-box{
+    float: right;
+    display: flex;
+    margin-top: 5%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* Media Queries */
+  @media (max-width: 768px) {
+      .header ul {
+          flex-direction: column;
+          align-items: center;
+      }
+
+      .container h2 {
+          font-size: 2rem;
+      }
+
+      .sec-box, .box-A, .box-B, .box-C {
+          width: 100%;
+      }
+
+      .footer-box {
+          grid-template-columns: 1fr;
+      }
   }
