@@ -774,22 +774,9 @@
     align-items: center;
   }
 
-  /* Media Queries */
-  @media (max-width: 768px) {
-      .header ul {
-          flex-direction: column;
-          align-items: center;
-      }
 
-      .container h2 {
-          font-size: 2rem;
-      }
-
-      .sec-box, .box-A, .box-B, .box-C {
-          width: 100%;
-      }
-
-      .footer-box {
-          grid-template-columns: 1fr;
-      }
+  @media (max-width: 600px ) {
+    .Logo{
+      
+    }
   }
