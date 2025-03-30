@@ -19,12 +19,23 @@
     font-weight: bold;
     font-family: Cambria, Cochin, Georgia, Times, serif;
   }
-  
-  .main-image img{
-    width: 109%;
-    height: 100%;
+
+  .Logo span{
+    color: #fff;
+    font-size: 37px;
   }
   
+   .main-image img{
+    width: 109%;
+    height: 100%;
+  } 
+  
+    .main-image{
+    width: 33%;
+    float: right;
+    margin-right: 20%;
+    position: relative; 
+  } 
   
   .hero h2,p{
     padding: 10px;
@@ -138,14 +149,7 @@
     color: #000;
     background: #035c80f3;
   }
-  
-  .main-image{
-    width: 33%;
-    float: right;
-    margin-right: 20%;
-    position: relative; 
-  }
-  
+   
   .menu{
     border: 1px solid #fff;
     border-radius: 5px;
@@ -777,6 +781,20 @@
 
   @media (max-width: 600px ) {
     .Logo{
-      
+      padding: 5px;
+      font-size: 24px;
+    }
+
+    .Logo span{
+      color: #00ffff;
+      font-size: 20px;
+    }
+
+    .header ul{
+      display: block;
+    }
+
+    .header a{
+      color: #fff;
     }
   }
